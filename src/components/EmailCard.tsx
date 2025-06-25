@@ -1,5 +1,6 @@
 import React from 'react';
-import { Email } from '../services/emailService';
+import type { Email } from '../services/emailService';
+
 
 interface Props {
   email: Email;
