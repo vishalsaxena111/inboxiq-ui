@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import type { Email, getAllEmails } from '../services/emailService';
+import { getAllEmails, type Email } from '../services/emailService';
 import EmailCard from '../components/EmailCard';
 
 const InboxPage: React.FC = () => {
