@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:9090/api/emails'; // Adjust to your Spring Boot backend
+const API_BASE_URL = 'http://localhost:9090/emails'; // Adjust to your Spring Boot backend
 
 export interface Email {
   id: number;
